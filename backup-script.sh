@@ -20,3 +20,5 @@ fi
 
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
 BACKUP_FILE="$DEST_DIR/backup_$TIMESTAMP.tar.gz"
+
+tar -czf "$BACKUP_FILE" -c "$SOURCE_DIR"
