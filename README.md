@@ -1,6 +1,6 @@
 # backup-script
 ### Overview
-Backup Script is a bash script that creates a compressed, timestamped backup of a sppecified directory and saves it to a destination directory. It logs the backup process and provides error handling to ensure reliable backups
+Backup Script is a bash script that creates a compressed, timestamped backup of a specified directory and saves it to a destination directory. It logs the backup process and provides error handling to ensure reliable backups
 
 #### Features
 - Creates a timestamped backup of the source directory
