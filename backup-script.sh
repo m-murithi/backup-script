@@ -7,3 +7,13 @@ fi
 
 SOURCE_DIR = "$1"
 DEST_DIR = "$2"
+
+if [! -d "$SOURCE_DIR"]; then
+    echo "Source directory $SOURCE_DIR does not exist"
+    exit 1
+fi
+
+if [! -d "DEST_DIR"]; then
+    echo "Destination directory $DEST_DIR does not exist"
+    exit 1
+fi
