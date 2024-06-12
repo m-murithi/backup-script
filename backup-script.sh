@@ -17,3 +17,6 @@ if [! -d "DEST_DIR"]; then
     echo "Destination directory $DEST_DIR does not exist"
     exit 1
 fi
+
+TIMESTAMP=$(date +"%Y%m%d%H%M%S")
+BACKUP_FILE="$DEST_DIR/backup_$TIMESTAMP.tar.gz"
